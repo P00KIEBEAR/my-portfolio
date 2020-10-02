@@ -1,10 +1,18 @@
-{
+ * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 body {
-    background-color: #d9dcd6;
+    background-color: #4f504e;
+}
+.background {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(".\assets\css\images\82d-Airborne-Division-All-American-blue-Flag.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .header {
@@ -24,7 +32,7 @@ body {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: cursive;
     font-size: 20px;
 }
 .header div ul {
@@ -34,29 +42,9 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 p {
-    font-size: 16px;
+    font-size: 32px;
 }
-.background {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-size: cover;
-    background-position: center;
-}
-.background{
-    height: 800px;
-    width: 100%;
-    margin-bottom: 50px;
-    background-image: url("..\css\images\82d-Airborne-Division-All-American-blue-Flag.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
 .float-left {
     float: left;
     margin-right: 25px;
@@ -96,6 +84,14 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+.work .run-buddy {
+   height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(".\assets\css\images\run-buddy.png");
+    background-size: cover;
+    background-position: center;
+}
 .Contact-me {
     margin-bottom: 20px;
     padding: 50px;
@@ -108,6 +104,12 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
   text-align: justify;
+}
+.Contact-me h3 {
+  margin-bottom: 20px;
+  font-size: 12;
+  color: antiquewhite;
+  column-width: auto;
 }
 /* footer */
 .footer {
