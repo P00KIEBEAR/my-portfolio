@@ -85,7 +85,7 @@ body {
     grid-row: 5 / span 2;
    height:100%;
     width: 100%;
-    background-color: rgb(33, 10, 241);
+    background-color: rgb(10, 241, 60);
     background-size: cover;
     background-position: center;
 }
