@@ -3,13 +3,24 @@
 
 <head>
   <meta charset="UTF-8">
-  <sub-title>Cool Subtilte!</sub-title>
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <div class="header">
   <h1>PATRICK PAGGI</h1>
+  <style>
+    h1 {
+
+      font-size: 40px;
+      font-family: fantasy;
+      background: linear-gradient(to right, #fa0463,
+          #cbf50f, #cf23cf, #0afc47);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    }
+  </style>
   <div>
     <title>Pat Paggi</title>
+
     <ul>
       <li>
         <a href="#About Me">About Me</a>
@@ -27,33 +38,37 @@
   </div>
 </div>
 <div class="background">
+  <sub-title>ALL THE WAY!</sub-title>
 </div>
 
 <body>
   <section class="content">
-    <div id="About Me" class="About Me">
-      <h2>About Me</h2>
+    <h2 class="title">About Me</h2>
+    <div id="About Me" class="About-Me">
       <p>
         In 1995 went into the U.S Army. 2003 graduated from E.T.I. in HVAC. 2009 I started my own company and it is
         still running.
       </p>
     </div>
-    <article class="Work">
-      <div id="Work">
-        <h2>Work</h2>
-        <div class="run-buddy"> </div>
-        <p>
-          In 1995 went into the U.S Army. 2003 graduated from E.T.I. in HVAC. 2009 I started my own company and it is
-          still running.
-        </p>
+    <div id="Work" class="Work">
+      <h2>Work</h2>
+      <div class="container">
+        <div class="grid-container">
+          <div class="grid-item run-buddy">Run Buddy</div>
+          <div class="grid-item java">Java</div>
+          <div class="grid-item led">LED Wall</div>
+          <div class="grid-item calcuator">Calcuator</div>
+          <div class="grid-item web">Web</div>
+        </div>
       </div>
-    </article>
-    <div id="Contact Me" class="Contact Me">
+    </div>
+    <div id="Contact Me" class="Contact-Me">
       <h2>Contact Me</h2>
       <h3>
-        PH: (480) 433-5757 <br>
-        Email: patpaggi@gmail.com <br>
-        Website: https://p00kiebear.github.io/my-portfolio/ <br>
+        <a href=""> PH: (480) 433-5757 </a>
+        <a href="patpaggi@gmail.com"> Email: patpaggi@gmail.com</a>
+        <a> </a>
+        <a href="https://p00kiebear.github.io/my-portfolio/"> Website: https://p00kiebear.github.io/my-portfolio/ </a>
       </h3>
     </div>
     <div id="Resume" class="Resume">
@@ -64,5 +79,10 @@
     </div>
   </section>
 </body>
+<footer>
+  <p>
+    Produce By Pat Paggi
+  </p>
+</footer>
 
 </html>
