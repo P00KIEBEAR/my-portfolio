@@ -5,7 +5,6 @@
 }
 .header {
     padding: 20px;
-    font-family:fantasy ;
     background-color: #080808;
     color: #35cf16;
 }
@@ -32,7 +31,7 @@
     height: 800px;
     width: 100%;
     margin-bottom: 100px;
-    background-image: url("..\css\images/All-American.jpg");
+   background-image: url(../css/images/All-American.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -59,7 +58,7 @@ body {
   grid-row: 5 / span 2;
    height:100%;
     width: 100%;
-    background-image: url("..\css\images/java.jpg");
+    background-image: url(../css/images/java.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -68,7 +67,7 @@ body {
   grid-row: 1 / span 4;
    height:100%;
     width: 100%;
-    background-image: url(".\css\images/run-buddy.png");
+   background-image: url(../css/images/run-buddy.png);
     background-size: cover;
     background-position: center;
 }
@@ -76,7 +75,7 @@ body {
     grid-row: 1 / span 2;
    height:100%;
     width: 100%;
-    background-color: crimson;
+    background-image: url(../css/images/led-wall.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -85,14 +84,14 @@ body {
     grid-row: 5 / span 2;
    height:100%;
     width: 100%;
-    background-color: rgb(10, 241, 60);
+   background-image: url(../css/images/calcuator.png);
     background-size: cover;
     background-position: center;
 }
 .web {
    height:100%;
     width: 100%;
-    background-color: rgb(8, 8, 8);
+    background-image: url(../css/images/web.jpg);
     background-size: cover;
     background-position: center;
 }
