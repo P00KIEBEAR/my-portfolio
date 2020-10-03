@@ -35,6 +35,7 @@
     background-size: cover;
     background-position: center;
 }
+
 body {
     background-color: #f1a5c9;
 }
@@ -105,11 +106,14 @@ p {
     font-size: 32px;
    float:right;
    color: cornsilk;
+   margin: 0 50 0 50;
 }
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    color: maroon;
 }
 .title {
     margin-bottom: 20px;
@@ -174,4 +178,38 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+@media screen and (max-width: 980px) {
+header {
+    padding-bottom: 0;
+    justify-content: center;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+    color: white;
+  }
+a{
+    color: white;
+}
+  footer h2, footer div {
+    text-align: center;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  section {
+    padding: 30px 15px;
+  }
 }

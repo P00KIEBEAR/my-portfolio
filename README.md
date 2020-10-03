@@ -16,6 +16,7 @@ About the Project
 Build With
 HTML
 CSS
+IMAGES off the web
 
 
 
