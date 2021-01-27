@@ -1,4 +1,5 @@
 # my-portfolio
+https://github.com/P00KIEBEAR
 Table of contents
 About the Project
 built with
@@ -8,17 +9,16 @@ Acknowledements
 About the Project
 ./assets\css\images\Portfolio.gif
 
-
+./assets\css\images\Screenshot 
 
 
 
 
 Build With
+
 HTML
 CSS
 IMAGES off the web
-
-
 
 
 
@@ -46,3 +46,4 @@ THEN I am presented with a responsive layout that adapts to my viewpor
 Acknowlledements
 Jason Whitted (instuctor)
 Geekforgeeks.org
+TA's
